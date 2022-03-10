@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-red-50">
+  <div class="px-4 py-10 flex flex-col w-full items-center flex-1 z-1">
+    <main class="relative rounded-2xl max-w-[480px] bg-white shadow-md radius-md my-auto z-1">
+      <div class="p-5 w-full text-slate-800">
+        <div class="flex w-full p-0 items-center justify-between">
+          <div class="w-fit flex items-center content-start">
+            <div class="font-medium text-lg">Swap</div>
+          </div>
+          <div class="w-fit flex items-center content-start">
+            <div class="ml-3 flex justify-center items-center relative border-0 text-left">
+              <button class="relative w-full border-0 radius-sm h-[20px] bg-transparent">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="Settings__StyledMenuIcon-sc-fxnuer-0 llccoy">
+                  <circle cx="12" cy="12" r="3"></circle>
+                  <path
+                    d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="relative p-8">
+        <div class="grid grid-rows-auto gap-8">
+          <div class="relative">
+
+            <div class="flex flex-flow relative z-1">
+              <div class="rounded-md bg-white">
+                <div class="flex rounded-lg flex-flow bg-slate-100 justify-between p-3 items-center">
+                  <input type="text" placeholder="0.0" class="bg-slate-100 opacity-1 text-left relative font-medium outline-0 border-0 flex-1 text-sm overflow-hidden"/>
+                  <button class="shadow-md bg-slate-100 cursor-pointer rounded-full outline-none items-center text-sm px-2 py-2 font-medium justify-between ml-12 z-index relative flex-wrap flex">
+                    <span class="w-full items-center justify-between flex">
+                      <div class="flex items-center justify-start">
+                        <img src="/eth.png" class="w-[24px] h-[24px] radius-md"/>
+                        <span class="text-xl mx-3">eth</span>
+                      </div>
+                      <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="CurrencyInputPanel__StyledDropDown-sc-db1zdq-8 bTHhjV">
+                        <path d="M0.97168 1L6.20532 6L11.439 1" stroke="#AEAEAE"></path>
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+                <div class="flex flex-flow justify-end items-center text-sm p-2">
+                  <div class="flex w-full justify-between items-center">
+                    <div class="opacity-1">
+                      <div class="font-medium text-sm text-slate-100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="absolute bg-white top-[4rem] z-10 rounded-md p-1 h-15 left-[12.5rem] bg-white">
+              <div class="bg-slate-100">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6E727D"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <polyline points="19 12 12 19 5 12"></polyline>
+                </svg>
+              </div>
+            </div>
+
+            <div class="flex flex-flow relative z-1">
+              <div class="rounded-md bg-white">
+                <div class="flex rounded-lg flex-flow bg-slate-100 justify-between p-3 items-center">
+                  <input 
+                    type="text"
+                    placeholder="0.0"
+                    class="bg-slate-100 opacity-1 text-left relative font-medium outline-0 border-0 flex-1 text-sm overflow-hidden" />
+                  <button
+                    class="shadow-md bg-red-600 bg-slate-100 cursor-pointer rounded-full outline-none items-center text-sm px-2 py-2 font-medium justify-between ml-12 z-index relative flex-wrap flex">
+                    <span class="w-full items-center justify-between flex">
+                      <div class="flex items-center justify-start">
+                        <span class="text-xl mx-3 text-white">Select a token</span>
+                      </div>
+                      <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="CurrencyInputPanel__StyledDropDown-sc-db1zdq-8 bTHhjV">
+                        <path d="M0.97168 1L6.20532 6L11.439 1" stroke="#ffffff"></path>
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+                <div class="flex flex-flow justify-end items-center text-sm p-2">
+                  <div class="flex w-full justify-between items-center">
+                    <div class="opacity-1">
+                      <div class="font-medium text-sm text-slate-100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <button
+                class="text-md font-medium bg-red-50 text-red-500 p-5 rounded-2xl w-full text-center flex justify-center flex-wrap items-center z-1">Connect
+                Wallet</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
